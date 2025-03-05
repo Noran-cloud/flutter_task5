@@ -36,9 +36,6 @@ class System_management{
   }
 
   void search(int id) {
-    // var student = students.firstWhere((s) => s.id == id,
-    //   orElse: () => Student(-1, "Not Found", 0.0, []),
-    // );
     var student ;
     if (student.id == -1) {
       print("Student not found!\n");
